@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+header {
+	display: block;
+	background-color: black;
+	font-family: "Source Code Pro"; 
+	height: 10vw;
+	margin-top: .25vw;
+	margin-left: 0;
+	margin-right: 0;
+}
+h1 {
+	color: white;
+	font-size: 1.5vw;
+	color: gray;
+	padding-top: .5vw;
+}
+.first {
+	font-size: 4vw;
+	text-decoration: underline;
+	color: white;
+}
+nav {
+	display: table;
+	width: 100%;
+}
+nav a {
+	display: table-cell;
+	text-align: center;
+	color: white;
+	background-color: gray;
+	border: .05vw solid white;
+	font-size: 1.5vw;
+}
