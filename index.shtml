@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ATIC Home</title>
+<style>
+</style>
+</head>
+<body>
+<!-- content starts below here -->
+<h2>Welcome,</h2>
+<p>to the Arlington Techinical Innovation Center's official website. This
+website will sever as a way for Arlington County Public Schools' students to
+showcase their technical abilities. It will also serve as a way for local small
+companies and non-for-profits to submit requests for work</p> 
+<!-- content ends above here -->
+<footer style="text-align: center;">
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a> &nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+</body>
+</html>
+
