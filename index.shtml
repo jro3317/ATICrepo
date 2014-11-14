@@ -11,10 +11,12 @@
 <body>
 <!--#include virtual="header.html"-->
 <!-- content starts below here -->
+<main>
 <p><h2>Welcome,</h2> to the Arlington Techinical Innovation Center's official
 website. This website will sever as a way for Arlington County Public Schools'
 students to showcase their technical abilities. It will also serve as a way for
 local small companies and non-for-profits to submit requests for work</p> 
+</main>
 <!--content ends above here -->
 <!--#include virtual="footer.html"-->
 </body>

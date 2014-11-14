@@ -2,3 +2,7 @@
 body {
     font-family: 'Lato' sans-serif
 }
+main {
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
