@@ -4,3 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+main {
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
