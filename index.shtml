@@ -5,7 +5,6 @@
 <title>ATIC Home</title>
 <style>
 @import url(all.css);
-@import url(main.css);
 </style>
 </head>
 <body>
