@@ -12,14 +12,17 @@ footer img {
 }
 footer a {
 	display: table-cell;
+    font-size: 1.2vw;
 	width: 10vw;
 	text-align: center;
 	text-decoration: none;
 	padding: .25vw;
 	color: black;
+    background-color: #DDDFFF
 }
 .valid {
 	width: 20vw;
 	margin-left: auto;
 	margin-right: auto;
-} 
+}
+   
