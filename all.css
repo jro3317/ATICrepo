@@ -1,4 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 body {
-    font-family: 'Lato' sans-serif
+    font-family: 'Lato' sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+	margin-left: 2vw;
+	margin-right: 2vw;
 }
