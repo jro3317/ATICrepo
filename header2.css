@@ -1,0 +1,61 @@
+header {
+    display: block;
+    background-color: #CFCFCF;
+    width: 100%;
+    height: 9vw;
+    font-family: "lato";
+}
+.logo {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    height: 5vw;
+    width: auto;
+}
+.navburger {
+    display: none;
+}
+nav {
+    display: table;
+    width: 100%;
+    height: 2vw;
+    position: absolute;
+    top: 7vw;
+}
+nav a {
+    display: table-cell;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    font-size: 1vw;
+    padding-top: .5vw;
+}
+#close {
+    display: none;
+}
+@media screen and (max-width: 480px) {
+nav {
+    position: relative;
+    display: none;
+    width: 100vw;
+    top: 0;
+}
+.navburger {
+    display: block;
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+    height: 25px;
+}
+#close {
+    display: table-row;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+nav a {
+    display: table-row;
+    width: 100vw;
+}
