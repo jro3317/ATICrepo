@@ -9,4 +9,9 @@ body {
 main {
 	margin-left: 2vw;
 	margin-right: 2vw;
+    font-size: 1vw;
+}
+.firstword {
+    font-weight: 900;
+    font-size: 3vw;
 }
