@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
-@import url(footer.css);
 @import url(header.css);
+@import url(footer.css);
 body {
     font-family: Lato sans-serif;
     margin: 0;

@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    width: 100vw;
 	display: block;
 	background-color: #CFCFCF;
 	font-family: "lato"; 
@@ -15,7 +15,7 @@ img {
 }
 nav {
 	display: table;
-	width: 100%;
+	width: 100vw;
 	height: 2vw;
 	min-height: 10px;
 }
@@ -37,7 +37,7 @@ nav a {
 nav {
     position: relative;
     display: none;
-    width: 100%;
+    width: 100vw;
     top: 0;
     
 }
@@ -57,6 +57,6 @@ nav {
 }
 nav a {
 	display: table-row;
-	width: 100%;
+	width: 100vw;
 }
 }
