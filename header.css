@@ -34,7 +34,10 @@ nav a {
 }
 @media screen and (max-width : 480px)  { 
 nav {
+    position: relative;
     display: none;
+    width: 100%;
+    top: 85px;
 }
 .navburger {
     display: block;
