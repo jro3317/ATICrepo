@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>Minimal Page</title>
+<style>
+@import url(all.css);
+</style>
 </head>
 <!--#include virtual="header.html"-->
 <!-- content starts below here -->
