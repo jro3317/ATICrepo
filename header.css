@@ -44,9 +44,12 @@ nav {
 	height: 25px;
 }
 #close {
-	display: table-cell;
+	display: table-row;
 	text-align: center;
 	color: white;
 	background-color: gray;
+}
+nav a {
+	display: table-row;
 }
 }
