@@ -1,64 +1,74 @@
 header {
-    width: 100vw;
-	display: block;
-	background-color: #CFCFCF;
-	font-family: "lato"; 
-	height: 10vw;
-	margin-top: 0; 
-	margin-left: 0;
-	margin-right: 0;
-	min-height: 85px; 
+    display: block;
+    background-color: #CFCFCF;
+    width: 100%;
+    height: 9vw;
+    font-family: "lato";
 }
-img {
-    height: 8vw;
-	min-height: 75px;
-}
-nav {
-	display: table;
-    visibility: visible;
-	width: 100vw;
-	height: 2vw;
-	min-height: 10px;
-}
-nav a {
-	display: table-cell;
-	visibility: visible;
-    text-align: center;
-	color: white;
-	background-color: gray;
-	border: .05vw solid white;
-    text-decoration: none;
-}
-#close {
-	display: none;
+.logo {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    height: 5vw;
+    width: auto;
 }
 .navburger {
     display: none;
 }
-@media screen and (max-width : 480px)  { 
 nav {
+    display: table;
+    width: 100%;
+    height: 2vw;
+    position: absolute;
+    top: 7vw;
+}
+nav a {
+    display: table-cell;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    font-size: 1vw;
+    padding-top: .5vw;
+}
+#close {
+    display: none;
+}
+@media screen and (max-device-width: 480px), screen and (orientation:portrait) {
+header {
+    height: 15vw;
+}
+.logo {
+    height: 13vw;
+}
+nav {
+    display: none;
     position: relative;
-    visibility: hidden;
-    width: 100vw;
-    top: 0;
-    
+    width: 100%;
+    top: 15vw;
 }
 .navburger {
     display: block;
     position: absolute;
     right: 1vw;
-	top: 1vw;
-	height: 25px;
+    top: 1vw;
+    height: 13vw;
 }
 #close {
-	display: table-row;
-	text-align: center;
-	color: white;
-	background-color: gray;
+    display: table-row;
+    text-align: center;
+    color: white;
+    background-color: gray;
     cursor: pointer;
+    font-size:5vw;
+    height:8vw; 
+    padding: 1.5vw;
 }
 nav a {
-	display: table-row;
-    width: 100vw;
+    display: table-row;
+    width: 50px;
+    font-size: 5vw;
+    height: 8vw;
+    padding: 1.5vw;
 }
 }
