@@ -42,8 +42,8 @@ header {
     height: 13vw;
 }
 nav {
-    position: relative;
     display: hide;
+    position: relative;
     width: 100%;
     top: 15vw;
 }
