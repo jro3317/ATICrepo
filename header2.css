@@ -42,7 +42,7 @@ header {
     height: 13vw;
 }
 nav {
-    display: hide;
+    display: none;
     position: relative;
     width: 100%;
     top: 15vw;
@@ -70,4 +70,5 @@ nav a {
     font-size: 5vw;
     height: 8vw;
     padding: 1.5vw;
+}
 }

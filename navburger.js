@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('.navburger').click(function() {
-			$('nav').show();
+			$('nav').css("display", "block");
 		});
 	$('#close').click(function() {
-			$('nav').hide();
+			$('nav').css("display", "none");
 		});
 });
