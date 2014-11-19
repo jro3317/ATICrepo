@@ -2,6 +2,7 @@ footer {
 	display: block;
 	width: 100%;
 	background-color: #CFCFCF;
+    min-height: 50px;
 }
 footer img {
 	display: block;
