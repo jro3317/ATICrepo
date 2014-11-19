@@ -9,9 +9,17 @@ body {
 main {
 	margin-left: 2vw;
 	margin-right: 2vw;
-	font-size: max(1vw, 25px);
+	font-size: 1vw;
 }
 .firstword {
     font-weight: 900;
     font-size: 3vw;
+}
+@media screen and (max-device-width: 480px), screen and (orientation:portrait) {
+main {
+    font-size: 15px;
+}
+.firstword {
+    font-size: 35px;
+}
 }
