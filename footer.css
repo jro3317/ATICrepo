@@ -3,7 +3,6 @@ footer {
 	display: block;
 	width: 100%;
 	background-color: #CFCFCF;
-    min-height: 50px;
 }
 footer img {
 	display: block;
@@ -22,7 +21,6 @@ footer a {
 	padding: .25vw;
 	color: black;
     font-weight: 300;
-    min-height: 500px;
 }
 .valid {
 	width: 20vw;

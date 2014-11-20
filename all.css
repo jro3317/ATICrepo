@@ -15,6 +15,19 @@ main {
     font-weight: 900;
     font-size: 3vw;
 }
+.asideleft {
+    float: left;
+    width: 25vw;
+}
+.asideleftcomment {
+    float: left;
+}
+.asideright {
+    float: right;
+}
+.asiderightcommet {
+    float: right;
+}
 @media screen and (max-device-width: 480px), screen and (orientation:portrait) {
 main {
     font-size: 15px;

@@ -5,10 +5,15 @@
 <title>Minimal Page</title>
 <style>
 @import url(all.css);
+@import url(info.css);
 </style>
 </head>
 <!--#include virtual="header.html"-->
 <!-- content starts below here -->
+<main>
+<div class="asideleft"></div>
+<!--#include virtual="sampleP.html"-->
+</main>
 <!-- content ends above here -->
 <!--#include virtual="footer.html"-->
 </body>
