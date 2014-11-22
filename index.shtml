@@ -21,6 +21,6 @@ abilities. It will also serve as a way for local small companies and
 non-for-profits to submit requests for work</p> 
 </main -->
 <!--content ends above here -->
-<!-- #include virtual="footer.html" -->
+<!--#include virtual="footer.html" -->
 </body>
 </html>
