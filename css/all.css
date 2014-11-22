@@ -7,9 +7,9 @@ body {
     padding: 0;
 }
 main {
-	margin-left: 2vw;
-	margin-right: 2vw;
-	font-size: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1vw;
 }
 .firstword {
     font-weight: 900;
@@ -29,10 +29,10 @@ main {
     float: right;
 }
 @media screen and (max-device-width: 480px), screen and (orientation:portrait) {
-main {
-    font-size: 15px;
-}
-.firstword {
-    font-size: 35px;
-}
+    main {
+        font-size: 15px;
+    }
+    .firstword {
+        font-size: 35px;
+    }
 }
