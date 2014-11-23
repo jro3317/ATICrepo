@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Minimal Page</title>
+<title></title>
 <style>
-@import url(all.css);
-@import url(info.css);
+@import url(css/all.css);
 </style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function() {
+  $('img#navburger').click(function() {
+    $('nav#mainNav').addClass('mobileNav');
+  });
+});
+</script>
 </head>
+<body>
 <!--#include virtual="header.html"-->
-<!-- content starts below here -->
 <main>
-<div class="asideleft"></div>
-<!--#include virtual="sampleP.html"-->
+
 </main>
-<!-- content ends above here -->
-<!--#include virtual="footer.html"-->
+<!--#include virtual="footer.html" -->
 </body>
 </html>
