@@ -4,7 +4,6 @@ footer {
     text-align: center;
     background-color: #AAA;
     margin-top: 5vw;
-    height: 3vw;
 }
 footer a {
     display: inline-block;
@@ -13,7 +12,7 @@ footer a {
     text-align: center;
     text-decoration: none;
     padding: .25vw;
-    margin-top: .5vw;
+    margin: .8vw 0 .8vw 0;
     color: black;
     font-weight: 300;
 }
@@ -25,4 +24,9 @@ footer a {
 .bold {
     font-weight: 900;
     color: #001A3E;
+}
+@media screen and (max-width: 480px) {
+    footer {
+        display: none;
+    }
 }

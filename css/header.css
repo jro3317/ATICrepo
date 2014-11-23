@@ -1,56 +1,80 @@
 header {
-    display: block;
+    display: table;
     background-color: #AAA;
     width: 100vw;
-    height: 10vw;
+    height: 11vw;
     font-family: "lato";
 }
-div#logo  {
-    height: 10vw;
-    margin-right: 9vw;
-    float: left;
-}
-div#logo img {
-    height: 100%;
+header div, header h1 {
+    display: table-cell;
+    vertical-align: middle;
 }
 header h1 {
-    display: inline-block;
-    margin-left: 2vw;
-    margin-right: 9vw;
-    margin-top: 2.8vw;
     font-size: 3.3vw;
+    padding-left: 5vw;
 }
-header div#navburger {
+div#logo  {
+    margin-right: 9vw;
+}
+div#logo img {
+    height: 11vw;
+    margin: 0;
+}
+header div#navb {
     display: none;
 }
-header nav {
-    display: block;
-    text-align: center;
-    width: 100vw;
-    height: 3vw;
+header div#navb img {
+    height: 9vw;
 }
-header nav a {
-    display: inline-block;
+nav#mainNav ul {
+    display: table;
+    list-style-type: none;
+    width: 48vw;
+    margin-left: 30vw;
+    margin-top: -1.2vw;
+}
+nav#mainNav li {
+    display: table-cell;
     text-align: center;
-    text-decoration: none;
+    height: 2.2vw;
+    width: 10vw;
+}
+nav#mainNav li a {
+    display: inline-block;
+    width: 10vw;
     color: #FFF;
     background-color: #333;
-    font-size: 1.5vw;
-    height: 2vw;
-    width: 12vw;
+    font-size: 1.3vw;
+    text-decoration: none;
+    padding: .5vw;
 }
-@media screen and (max-device-width: 480px), screen and (orientation: portrait)
-{
+nav#mainNav.mobileNav {
+    display: block;
+    width: 100vw;
+    margin-top: 0.5vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+nav#mainNav.mobileNav ul {
+    display: table;
+    width: 100vw;
+}
+nav#mainNav.mobileNav li {
+    display: table-row;
+    height: 11vw;
+    width: 100vw;
+    font-size: large;
+    font-weight: bold;
+    padding: 2vw;
+}
+@media screen and (max-width: 480px) {
     div#logo {
         display: none;
     }
-    div#navBurger {
-        display: block;
-        height: 10vw;
-        float: right;
-        background-color: yellow;
+    header div#navb {
+        display: table-cell;
     }
-    div#navBurger img {
-        height: 10vw;
+    nav#mainNav {
+        display: none;
     }
 }

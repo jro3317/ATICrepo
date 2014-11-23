@@ -15,12 +15,11 @@ main {
     font-weight: 900;
     font-size: 2.5vw;
 }
-@media screen and (max-device-width: 480px), screen and (orientation: portrait)
-{
+@media screen and (max-device-width: 480px) {
     main {
-        font-size: 15px;
+        font-size: 12px;
     }
     .firstword {
-        font-size: 35px;
+        font-size: 14px;
     }
 }
