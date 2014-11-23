@@ -10,7 +10,7 @@
 </script>
 <script>
 $(document).ready(function() {
-  $('img#navburger').click(function() {
+  $('div#navb').click(function() {
     $('nav#mainNav').addClass('mobileNav');
   });
 });
