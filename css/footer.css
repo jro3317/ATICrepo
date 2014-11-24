@@ -1,0 +1,32 @@
+footer {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    background-color: #AAA;
+    margin-top: 5vw;
+}
+footer a {
+    display: inline-block;
+    font-size: 1.2vw;
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    padding: .25vw;
+    margin: .8vw 0 .8vw 0;
+    color: black;
+    font-weight: 300;
+}
+.button { 
+    background-color: #CEDEFF;
+    border-radius: 7px;
+    border: black solid 1px;
+}
+.bold {
+    font-weight: 900;
+    color: #001A3E;
+}
+@media screen and (max-width: 480px) {
+    footer {
+        display: none;
+    }
+}

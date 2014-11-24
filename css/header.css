@@ -1,0 +1,88 @@
+header {
+    display: table;
+    background-color: #AAA;
+    width: 100vw;
+    height: 11vw;
+    font-family: "lato";
+}
+header div, header h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+header h1 {
+    font-size: 3.3vw;
+    padding-left: 5vw;
+}
+div#logo  {
+    margin-right: 9vw;
+}
+div#logo img {
+    height: 11vw;
+    margin: 0;
+}
+header div#navb {
+    display: none;
+}
+header div#navb img {
+    height: 9vw;
+}
+nav#mainNav {
+    display: table;
+    list-style-type: none;
+    width: 48vw;
+    margin-left: 30vw;
+    margin-top: -1.2vw;
+}
+nav#mainNav span {
+    display: table-cell;
+    text-align: center;
+    height: 2.2vw;
+    width: 10vw;
+}
+nav#mainNav span a {
+    display: inline-block;
+    width: 10vw;
+    color: #FFF;
+    background-color: #333;
+    font-size: 1.3vw;
+    text-decoration: none;
+    padding: .5vw;
+}
+nav#mainNav.mobileNav {
+    display: table;
+    width: 100vw;
+    height: 11vw;
+    margin: 0;
+}
+nav#mainNav.mobileNav span {
+    display: table-row;
+    width: 100vw;
+}
+nav#mainNav.mobileNav span a {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    font-size: large;
+    font-weight: bold;
+}
+nav#mainNav.mobileNav span a:hover {
+    opacity: 0.5;
+}
+nav#mainNav.mobileNav span:nth-child(2n) a {
+    background-color: #AAA;
+}
+nav#mainNav.mobileNav span:nth-child(2n+1) a {
+    background-color: #333;
+}
+@media screen and (max-width: 480px) {
+    div#logo {
+        display: none;
+    }
+    header div#navb {
+        display: table-cell;
+        cursor: pointer;
+    }
+    nav#mainNav {
+        display: none;
+    }
+}
