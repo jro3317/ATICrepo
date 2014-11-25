@@ -19,7 +19,12 @@ $(document).ready(function() {
 <body>
 <!--#include virtual="header.html"-->
 <main>
-
+<h2>Projects</h2>
+<hr>
+<span class="projectTitle">Sample Project</span>
+<p class="projectDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, dolor sit amet laoreet luctus, urna lacus efficitur lorem, id finibus nunc sapien et felis. Vivamus dictum lacinia laoreet. Nam et nulla id felis ultricies aliquam. Donec venenatis velit ex, a accumsan ipsum laoreet a. Duis cursus ullamcorper ornare. Vestibulum maximus arcu magna, ut lobortis felis ultrices ut. Curabitur ac tortor scelerisque est fermentum dictum vitae vel diam. Donec id leo aliquam, suscipit massa at, posuere nisl. Etiam sed lobortis est. Etiam finibus odio sit amet ex cursus aliquam. Donec nec dolor at ex accumsan ultricies eget eget libero. Donec ullamcorper tempus nibh, in blandit turpis venenatis sit amet. Nunc tristique dictum elit, pulvinar maximus libero euismod ac. Etiam quis euismod augue. Donec ac leo quam.</p>
+<figure class="rightImage" src="media/cellphone.jpg" alt="project picture"></figure>
+<hr>
 </main>
 <!--#include virtual="footer.html" -->
 </body>
