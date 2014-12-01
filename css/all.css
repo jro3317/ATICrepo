@@ -23,3 +23,10 @@ main {
         font-size: 14px;
     }
 }
+hr {
+    border: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    height: 3px;
+}

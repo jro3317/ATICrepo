@@ -1,1 +1,14 @@
-
+.projectTitle {
+    font-size: 2vw;
+    text-decoration: underline;
+    text-align: left;
+}
+.projectDetails {
+}
+.rightImage {
+    width: 50%;
+    float: right;
+}
+.leftImage {
+    width: 50%;
+    float: left;

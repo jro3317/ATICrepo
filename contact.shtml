@@ -24,6 +24,7 @@ $(document).ready(function() {
 or have some suggestions, contact us at
 <a href="mailto:arltechinnovation@gmail.com">arltechinnovation@gmail.com</a>
 </p>
+<hr>
 </main>
 <!--#include virtual="footer.html" -->
 </body>
