@@ -4,12 +4,17 @@
     text-align: left;
 }
 .projectDetails {
+    padding: 10px;
 }
 .rightImage {
+    padding: 10px;
     width: 50%;
     float: right;
+    margin:10px;
 }
 .leftImage {
+    padding:10px;
     width: 50%;
     float: left;
+    margin:10px;
 }

@@ -22,15 +22,68 @@ $(document).ready(function() {
 <main>
 <h2>Projects</h2>
 <hr>
-<span class="projectTitle">Sample Project</span>
-<img class="rightImage" src="media/cellphone.jpg" alt="project
+<img class="rightImage" src="media/projectImages/generals_buzz.png" alt="project
 picture">
-<p class="projectDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, dolor sit amet laoreet luctus, urna lacus efficitur lorem, id finibus nunc sapien et felis. Vivamus dictum lacinia laoreet. Nam et nulla id felis ultricies aliquam. Donec venenatis velit ex, a accumsan ipsum laoreet a. Duis cursus ullamcorper ornare. Vestibulum maximus arcu magna, ut lobortis felis ultrices ut. Curabitur ac tortor scelerisque est fermentum dictum vitae vel diam. Donec id leo aliquam, suscipit massa at, posuere nisl. Etiam sed lobortis est. Etiam finibus odio sit amet ex cursus aliquam. Donec nec dolor at ex accumsan ultricies eget eget libero. Donec ullamcorper tempus nibh, in blandit turpis venenatis sit amet. Nunc tristique dictum elit, pulvinar maximus libero euismod ac. Etiam quis euismod augue. Donec ac leo quam.</p>
+<span class="projectTitle">Generals Buzz</span>
+<div class="byLine">by: Kenny Worden</div>
+<p class="projectDetails">Students, parents, and faculty need to stay on top of
+upcoming events at Washington-Lee. Frequently, they need to see the
+who, what, when, and where for events quickly – what period is the pep
+rally? Was school canceled today? What quarter exams are today? When
+is that School Board meeting? Not everyone has access to a computer
+when they're on the move to their next class or when they remember
+that something was happening today and they're stuck in a place with
+no cell service, and navigating to the school website takes at least 3
+clicks on a mobile device... on a website not designed for mobile
+integration nor for the painfully slow internet that is bogged down by
+hundreds of other students and faculty using it simultaneously.
+<br> <br>
+Generals Buzz seeks to combat that problem. It tells you as much
+information as it can garner from the school website, and saves it on
+your device. No more loading, no more navigating. Simply open the app
+and know what is happening today, tomorrow, or 3 months in the future,
+all without an internet connection. If the app detects a change in
+events, the calendar automatically updates itself when it has a
+connection. Want to be reminded about a specific event? Simply open an
+event menu to set a calendar reminder or hide events that you don't
+care for.
+</p>
 <hr>
-<span class="projectTitle">Sample Project</span>
-<img class="leftImage" src="media/cellphone.jpg" alt="project
-picture">
-<p class="projectDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, dolor sit amet laoreet luctus, urna lacus efficitur lorem, id finibus nunc sapien et felis. Vivamus dictum lacinia laoreet. Nam et nulla id felis ultricies aliquam. Donec venenatis velit ex, a accumsan ipsum laoreet a. Duis cursus ullamcorper ornare. Vestibulum maximus arcu magna, ut lobortis felis ultrices ut. Curabitur ac tortor scelerisque est fermentum dictum vitae vel diam. Donec id leo aliquam, suscipit massa at, posuere nisl. Etiam sed lobortis est. Etiam finibus odio sit amet ex cursus aliquam. Donec nec dolor at ex accumsan ultricies eget eget libero. Donec ullamcorper tempus nibh, in blandit turpis venenatis sit amet. Nunc tristique dictum elit, pulvinar maximus libero euismod ac. Etiam quis euismod augue. Donec ac leo quam.</p>
+<img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
+<span class="projectTitle">Bistro</span>
+<div class="byLine">by: Andrew Fleckenstein</div>
+<p class="projectDetails">
+Bistro is a computer-aided fluency training program that helps
+stutterers overcome their impediment. It uses an accelerometer
+connected to an Arduino, which is strapped around the abdomen, to
+measure breathing. Knowing when a full breath is drawn is essential to
+knowing when one should start speaking.  A microphone to measure
+speech volume, which helps train continuous phonation.  The Arduino
+and accelerometer were chosen for their portability, availability, and
+price. The project is programmed in Java, which was chosen for its
+portability and native GUI capabilities.
+</p>
+<hr>
+<img class="rightImage" src="media/projectImages/EEGPicture.jpg" alt="EEG picture">
+<span class="projectTitle">Building an Electroencephalogram (EEG)</span>
+<div class="byLine">by: William Edmisten</div>
+<p class="projectDetails">
+An EEG is an instrument which measures the electrical activity of the
+brain, resulting from the ionic current flow of neurons. EEGs can
+measure voltage patterns which correspond to certain brain activities,
+such as relaxation/attention or drowsiness.
+<br><br>
+An online schematic was followed, which involved combining several
+input filters to ensure quality data was recorded from the electrodes
+attached to the scalp.
+<br><br>
+An instrumentation amplifier and two operational amplifiers were used
+to compare two signals and return the amplified difference. A series
+of resistors and capacitors were used to filter the input into viable,
+processed data. A potentiometer was used to control gain in the final
+stage. Two disposable electrodes are used for signal input: one
+attached to the leg (as a reference signal) and one to the scalp.
+</p>
 <hr>
 </main>
 <!--#include virtual="footer.html" -->
