@@ -19,7 +19,8 @@ $(document).ready(function() {
 <body>
 <!--#include virtual="header.html"-->
 <main>
-
+<h1 class="pageTitle">About ATIC</h2>
+<hr>
 </main>
 <!--#include virtual="footer.html" -->
 </body>

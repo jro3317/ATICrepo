@@ -19,8 +19,10 @@ $(document).ready(function() {
 <body>
 <!--#include virtual="header.html"-->
 <main>
-<p><span class="firstword">Welcome</span>, to the Arlington Techinical
-Innovation Center's official website. This website will sever as a way for
+<h1 class="pageTitle">Home</h1>
+<hr>
+<p>Welcome, to the Arlington Techinical
+Innovation Center's official website. This website will serve as a way for
 Arlington County Public Schools' students to showcase their technical
 abilities. It will also serve as a way for local small companies and
 non-for-profits to submit requests for work</p> 

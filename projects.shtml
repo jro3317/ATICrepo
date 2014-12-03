@@ -20,11 +20,12 @@ $(document).ready(function() {
 <body>
 <!--#include virtual="header.html"-->
 <main>
-<h2>Projects</h2>
+<h1 class="pageTitle">Projects</h1>
 <hr>
+<section>
 <img class="rightImage" src="media/projectImages/generals_buzz.png" alt="project
 picture">
-<span class="projectTitle">Generals Buzz</span>
+<h2 class="projectTitle">Generals Buzz</h2>
 <div class="byLine">by: Kenny Worden</div>
 <p class="projectDetails">Students, parents, and faculty need to stay on top of
 upcoming events at Washington-Lee. Frequently, they need to see the
@@ -48,9 +49,11 @@ connection. Want to be reminded about a specific event? Simply open an
 event menu to set a calendar reminder or hide events that you don't
 care for.
 </p>
+</section>
 <hr>
+<section>
 <img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
-<span class="projectTitle">Bistro</span>
+<h2 class="projectTitle">Bistro</h2>
 <div class="byLine">by: Andrew Fleckenstein</div>
 <p class="projectDetails">
 Bistro is a computer-aided fluency training program that helps
@@ -63,9 +66,11 @@ and accelerometer were chosen for their portability, availability, and
 price. The project is programmed in Java, which was chosen for its
 portability and native GUI capabilities.
 </p>
+</section>
 <hr>
+<section>
 <img class="rightImage" src="media/projectImages/EEGPicture.jpg" alt="EEG picture">
-<span class="projectTitle">Building an Electroencephalogram (EEG)</span>
+<h2 class="projectTitle">Building an Electroencephalogram (EEG)</h2>
 <div class="byLine">by: William Edmisten</div>
 <p class="projectDetails">
 An EEG is an instrument which measures the electrical activity of the
@@ -84,6 +89,7 @@ processed data. A potentiometer was used to control gain in the final
 stage. Two disposable electrodes are used for signal input: one
 attached to the leg (as a reference signal) and one to the scalp.
 </p>
+</section>
 <hr>
 </main>
 <!--#include virtual="footer.html" -->

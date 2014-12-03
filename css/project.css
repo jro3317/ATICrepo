@@ -5,16 +5,29 @@
 }
 .projectDetails {
     padding: 10px;
-}
-.rightImage {
-    padding: 10px;
-    width: 50%;
-    float: right;
-    margin:10px;
+    padding-left: 0;
 }
 .leftImage {
     padding:10px;
-    width: 50%;
     float: left;
+    margin: 10px;
+    max-width: 50%;
+    width: auto;
+    max-height: 600px;
+    height: auto;
+}
+.rightImage {
+    padding: 10px;
+    float: right;
     margin:10px;
+    max-width: 50%;
+    width: auto;
+    max-height: 600px;
+    height: auto;
+}
+section {
+    display: block;
+}
+p {
+    margin: 0;
 }
