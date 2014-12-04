@@ -50,7 +50,7 @@ event menu to set a calendar reminder or hide events that you don't
 care for.
 </p>
 </section>
-<hr>
+<hr class=clear>
 <section>
 <img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
 <h2 class="projectTitle">Bistro</h2>
@@ -67,7 +67,7 @@ price. The project is programmed in Java, which was chosen for its
 portability and native GUI capabilities.
 </p>
 </section>
-<hr>
+<hr class=clear>
 <section>
 <img class="rightImage" src="media/projectImages/EEGPicture.jpg" alt="EEG picture">
 <h2 class="projectTitle">Building an Electroencephalogram (EEG)</h2>
@@ -90,7 +90,7 @@ stage. Two disposable electrodes are used for signal input: one
 attached to the leg (as a reference signal) and one to the scalp.
 </p>
 </section>
-<hr>
+<hr class=clear>
 </main>
 <!--#include virtual="footer.html" -->
 </body>
