@@ -34,3 +34,16 @@ p {
 .clear {
     clear:both;
 }
+nav#projectNav {
+    display: table;
+    width: 100%
+}
+nav#projectNav a {
+    display: table-cell;
+    background-color: #aaa;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 33.333%;
+    padding: .2vw;
+}

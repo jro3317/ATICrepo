@@ -18,10 +18,60 @@ $(document).ready(function() {
 </script>
 </head>
 <body>
+<a id="top"></a>
 <!--#include virtual="header.html"-->
 <main>
 <h1 class="pageTitle">Projects</h1>
 <hr>
+<span>Click one of the following projects to see details on it:</span>
+<nav id="projectNav">
+    <a href="#Bistro">Bistro</a>
+    <a href="#EEG">Electroencephalogram</a>
+    <a href="#generalsBuzz">Generals Buzz</a>
+</nav>
+<a id="Bistro"></a>
+<section>
+<img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
+<h2 class="projectTitle">Bistro</h2>
+<div class="byLine">by: Andrew Fleckenstein</div>
+<p class="projectDetails">
+Bistro is a computer-aided fluency training program that helps
+stutterers overcome their impediment. It uses an accelerometer
+connected to an Arduino, which is strapped around the abdomen, to
+measure breathing. Knowing when a full breath is drawn is essential to
+knowing when one should start speaking.  A microphone to measure
+speech volume, which helps train continuous phonation.  The Arduino
+and accelerometer were chosen for their portability, availability, and
+price. The project is programmed in Java, which was chosen for its
+portability and native GUI capabilities.
+</p><a href="#top">(top)</a>
+</section>
+<hr class=clear>
+<a id="EEG"></a>
+<section>
+<img class="rightImage" src="media/projectImages/EEGPicture.jpg" alt="EEG picture">
+<h2 class="projectTitle">Building an Electroencephalogram (EEG)</h2>
+<div class="byLine">by: William Edmisten</div>
+<p class="projectDetails">
+An EEG is an instrument which measures the electrical activity of the
+brain, resulting from the ionic current flow of neurons. EEGs can
+measure voltage patterns which correspond to certain brain activities,
+such as relaxation/attention or drowsiness.
+<br><br>
+An online schematic was followed, which involved combining several
+input filters to ensure quality data was recorded from the electrodes
+attached to the scalp.
+<br><br>
+An instrumentation amplifier and two operational amplifiers were used
+to compare two signals and return the amplified difference. A series
+of resistors and capacitors were used to filter the input into viable,
+processed data. A potentiometer was used to control gain in the final
+stage. Two disposable electrodes are used for signal input: one
+attached to the leg (as a reference signal) and one to the scalp.
+</p><a href="#top">(top)</a>
+</section>
+<hr class=clear>
+<a id="generalsBuzz"></a>
 <section>
 <img class="rightImage" src="media/projectImages/generals_buzz.png" alt="project
 picture">
@@ -48,47 +98,7 @@ events, the calendar automatically updates itself when it has a
 connection. Want to be reminded about a specific event? Simply open an
 event menu to set a calendar reminder or hide events that you don't
 care for.
-</p>
-</section>
-<hr class=clear>
-<section>
-<img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
-<h2 class="projectTitle">Bistro</h2>
-<div class="byLine">by: Andrew Fleckenstein</div>
-<p class="projectDetails">
-Bistro is a computer-aided fluency training program that helps
-stutterers overcome their impediment. It uses an accelerometer
-connected to an Arduino, which is strapped around the abdomen, to
-measure breathing. Knowing when a full breath is drawn is essential to
-knowing when one should start speaking.  A microphone to measure
-speech volume, which helps train continuous phonation.  The Arduino
-and accelerometer were chosen for their portability, availability, and
-price. The project is programmed in Java, which was chosen for its
-portability and native GUI capabilities.
-</p>
-</section>
-<hr class=clear>
-<section>
-<img class="rightImage" src="media/projectImages/EEGPicture.jpg" alt="EEG picture">
-<h2 class="projectTitle">Building an Electroencephalogram (EEG)</h2>
-<div class="byLine">by: William Edmisten</div>
-<p class="projectDetails">
-An EEG is an instrument which measures the electrical activity of the
-brain, resulting from the ionic current flow of neurons. EEGs can
-measure voltage patterns which correspond to certain brain activities,
-such as relaxation/attention or drowsiness.
-<br><br>
-An online schematic was followed, which involved combining several
-input filters to ensure quality data was recorded from the electrodes
-attached to the scalp.
-<br><br>
-An instrumentation amplifier and two operational amplifiers were used
-to compare two signals and return the amplified difference. A series
-of resistors and capacitors were used to filter the input into viable,
-processed data. A potentiometer was used to control gain in the final
-stage. Two disposable electrodes are used for signal input: one
-attached to the leg (as a reference signal) and one to the scalp.
-</p>
+</p><a href="#top">(top)</a>
 </section>
 <hr class=clear>
 </main>
