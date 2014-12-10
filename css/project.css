@@ -42,8 +42,10 @@ nav#projectNav a {
     display: table-cell;
     background-color: #aaa;
     text-decoration: none;
-    color: white;
+    color: #333;
     text-align: center;
     width: 33.333%;
     padding: .2vw;
+    margin: 10px;
+    border: solid white;
 }

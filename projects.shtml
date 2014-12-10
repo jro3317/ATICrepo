@@ -19,16 +19,20 @@ $(document).ready(function() {
 </head>
 <body>
 <a id="top"></a>
+<!--this is the header being virtually included-->
 <!--#include virtual="header.html"-->
 <main>
 <h1 class="pageTitle">Projects</h1>
 <hr>
-<span>Click one of the following projects to see details on it:</span>
+<span>Click one of the following projects to see details on it, or scroll down
+to read through them:</span>
+<!--these connect to the different projects on the page-->
 <nav id="projectNav">
     <a href="#Bistro">Bistro</a>
     <a href="#EEG">Electroencephalogram</a>
     <a href="#generalsBuzz">Generals Buzz</a>
 </nav>
+<hr>
 <a id="Bistro"></a>
 <section>
 <img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
@@ -73,7 +77,7 @@ attached to the leg (as a reference signal) and one to the scalp.
 <hr class=clear>
 <a id="generalsBuzz"></a>
 <section>
-<img class="rightImage" src="media/projectImages/generals_buzz.png" alt="project
+<img class="leftImage" src="media/projectImages/generals_buzz.png" alt="project
 picture">
 <h2 class="projectTitle">Generals Buzz</h2>
 <div class="byLine">by: Kenny Worden</div>
@@ -102,6 +106,7 @@ care for.
 </section>
 <hr class=clear>
 </main>
+<!-- footer being server-side-included here-->
 <!--#include virtual="footer.html" -->
 </body>
 </html>

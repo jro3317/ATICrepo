@@ -25,7 +25,7 @@ footer a {
     font-weight: 900;
     color: #001A3E;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
     footer {
         display: none;
     }

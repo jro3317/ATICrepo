@@ -51,7 +51,7 @@ nav#mainNav span a {
 nav#mainNav.mobileNav {
     display: table;
     width: 100vw;
-    height: 11vw;
+    height: 50vw;
     margin: 0;
 }
 nav#mainNav.mobileNav span {
@@ -62,7 +62,7 @@ nav#mainNav.mobileNav span a {
     display: table-cell;
     vertical-align: middle;
     width: 100vw;
-    font-size: large;
+    font-size: 8vw;
     font-weight: bold;
 }
 nav#mainNav.mobileNav span a:hover {
@@ -74,7 +74,7 @@ nav#mainNav.mobileNav span:nth-child(2n) a {
 nav#mainNav.mobileNav span:nth-child(2n+1) a {
     background-color: #333;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
     div#logo {
         display: none;
     }
