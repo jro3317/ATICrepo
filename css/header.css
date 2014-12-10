@@ -53,6 +53,8 @@ nav#mainNav.mobileNav {
     width: 100vw;
     height: 50vw;
     margin: 0;
+	background-color: black
+	opacity: 0.5;
 }
 nav#mainNav.mobileNav span {
     display: table-row;
@@ -64,15 +66,6 @@ nav#mainNav.mobileNav span a {
     width: 100vw;
     font-size: 8vw;
     font-weight: bold;
-}
-nav#mainNav.mobileNav span a:hover {
-    opacity: 0.5;
-}
-nav#mainNav.mobileNav span:nth-child(2n) a {
-    background-color: #AAA;
-}
-nav#mainNav.mobileNav span:nth-child(2n+1) a {
-    background-color: #333;
 }
 @media screen and (max-device-width: 480px) {
     div#logo {
