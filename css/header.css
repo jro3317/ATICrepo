@@ -23,6 +23,10 @@ div#logo img {
 header div#navb {
     display: none;
 }
+header div#close {
+    font-size: 9vw;
+    color: #333;
+}
 header div#navb img {
     height: 9vw;
 }
@@ -48,13 +52,17 @@ nav#mainNav span a {
     text-decoration: none;
     padding: .5vw;
 }
+nav#mainNav span#close {
+    display:none;
+}
 nav#mainNav.mobileNav {
     display: table;
     width: 100vw;
     height: 50vw;
     margin: 0;
-	background-color: black
-	opacity: 0.5;
+    position: absolute;
+    top: 11vw;
+    background-color: rgba(0,0,0,.8);
 }
 nav#mainNav.mobileNav span {
     display: table-row;
@@ -66,6 +74,12 @@ nav#mainNav.mobileNav span a {
     width: 100vw;
     font-size: 8vw;
     font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border-bottom-style: solid;
+}
+.hide {
+    display: none !important;
 }
 @media screen and (max-device-width: 480px) {
     div#logo {

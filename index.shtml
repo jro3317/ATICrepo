@@ -12,6 +12,13 @@
 $(document).ready(function() {
   $('div#navb').click(function() {
     $('nav#mainNav').addClass('mobileNav');
+    $('header div#navb').addClass('hide');
+    $('header div#close').removeClass('hide');
+  });
+  $('header div#close').click(function() {
+    $('nav#mainNav').removeClass('mobileNav');
+    $('header div#navb').removeClass('hide');
+    $('header div#close').addClass('hide');
   });
 });
 </script>
