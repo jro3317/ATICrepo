@@ -23,12 +23,12 @@ div#logo img {
 header div#navb {
     display: none;
 }
-header div#close {
-    font-size: 9vw;
-    color: #333;
-}
 header div#navb img {
     height: 9vw;
+}
+header div#close img {
+    height: 9vw;
+    color: #AAA;
 }
 nav#mainNav {
     display: table;
@@ -92,4 +92,5 @@ nav#mainNav.mobileNav span a {
     nav#mainNav {
         display: none;
     }
+
 }
