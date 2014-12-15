@@ -41,8 +41,8 @@ to read through them:</span>
     <a href="#generalsBuzz">Generals Buzz</a>
 </nav>
 <hr>
-<a id="Bistro"></a>
-<section>
+
+<section id="Bistro">
 <img class="leftImage" src="media/projectImages/bistro.jpg" alt="Bistro hardware picture">
 <h2 class="projectTitle">Bistro</h2>
 <div class="byLine">by: Andrew Fleckenstein</div>
@@ -59,8 +59,7 @@ portability and native GUI capabilities.
 </p><a href="#top">(top)</a>
 </section>
 <hr class=clear>
-<a id="EEG"></a>
-<section>
+<section id="EEG">
 <img class="rightImage" src="media/projectImages/EEGPicture.jpg" alt="EEG picture">
 <h2 class="projectTitle">Building an Electroencephalogram (EEG)</h2>
 <div class="byLine">by: William Edmisten</div>
@@ -83,8 +82,7 @@ attached to the leg (as a reference signal) and one to the scalp.
 </p><a href="#top">(top)</a>
 </section>
 <hr class=clear>
-<a id="generalsBuzz"></a>
-<section>
+<section id="generalsBuzz">
 <img class="leftImage" src="media/projectImages/generals_buzz.png" alt="project
 picture">
 <h2 class="projectTitle">Generals Buzz</h2>
