@@ -20,11 +20,6 @@ def server_static(filename):
         return static_file(filename, root=os.path.join(current_dir, 'static'))
 
 
-@route('/contact')
-def contact():
-    return template('templates/contact.tpl')
-
-
 def get_port():
     description = 'A bottle server for the HILT Institute'
     parser = argparse.ArgumentParser(description)
