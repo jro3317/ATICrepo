@@ -15,6 +15,21 @@ def index():
     return template('templates/index.tpl')
 
 
+@route('/about')
+def index():
+    return template('templates/info.tpl')
+
+
+@route('/contact')
+def index():
+    return template('templates/contact.tpl')
+
+
+@route('/projects')
+def index():
+    return template('templates/projects.tpl')
+
+
 @route('/static/<filename:path>')
 def server_static(filename):
         return static_file(filename, root=os.path.join(current_dir, 'static'))

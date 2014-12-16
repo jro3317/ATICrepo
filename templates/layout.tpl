@@ -5,6 +5,11 @@
 <title>{{title}}</title>
 <style>
 @import url(/static/css/all.css);
+@import url(/static/css/header.css);
+@import url(/static/css/footer.css);
+%for stylesheet in addstyles:
+@import url(/static/css/{{stylesheet}}.css);
+%end
 </style>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 </script>
@@ -34,10 +39,10 @@ alt="navigation exit button"></div>
 </header>
 
 <nav id="mainNav">
-  <span><a href="">Home</a></span>
-  <span><a href="">About ATIC</a></span>
-  <span><a href="">Projects</a></span>
-  <span><a href="">Contact Us</a></span>
+  <span><a href="/">Home</a></span>
+  <span><a href="/about">About ATIC</a></span>
+  <span><a href="/projects">Projects</a></span>
+  <span><a href="/contact">Contact Us</a></span>
 </nav>
 
 <main>

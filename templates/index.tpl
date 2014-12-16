@@ -14,4 +14,4 @@ non-for-profits to submit requests for work</p>
 involved in ATIC have already done.</p>
 </section>
 
-%rebase templates/layout.tpl title='ATIC Home'
+%rebase templates/layout.tpl title='ATIC Home', addstyles=['info']
