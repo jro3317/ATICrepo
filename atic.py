@@ -1,6 +1,8 @@
 import os
 import sys
 import argparse
+import sqlite3
+import bottle
 from bottle import route, run, template, static_file
 
 
@@ -24,12 +26,38 @@ def index():
 def index():
     return template('templates/contact.tpl')
 
+def get_data(dbfile, table):
+    db = sqlite3.connect(dbfile)
+    cur = db.cursor()
+    cur.execute("select * from  {0}".format(table))
+    return cur.fetchall()
 
-@route('/projects')
+#page for the list of projects
+@bottle.get('/projectlist')
 def index():
-    return template('templates/projects.tpl')
+    data = get_data("projects.db", "projects")
+    data.sort()
+    return bottle.template('templates/projectlist.tpl', data=data)    
 
+#page for adding a project
+@bottle.get('/projectlist/addproject')
+def addproject():
+    return bottle.template('templates/addproject.tpl')
 
+#submit button function
+@bottle.post('/projectlist/addproject/submit')
+def added():
+    parts = bottle.request.forms
+    db = sqlite3.connect('projects.db')
+    cur = db.cursor()
+    if parts['name'] != '' or parts['description'] != '':
+        cur.execute("INSERT INTO projects VALUES(?,?)",
+        (parts['name'], parts['description']))
+    new_id = cur.lastrowid
+    db.commit()
+    cur.close
+    return '<a href="/projectlist">Back</a>'
+    
 @route('/static/<filename:path>')
 def server_static(filename):
         return static_file(filename, root=os.path.join(current_dir, 'static'))
