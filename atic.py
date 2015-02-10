@@ -45,7 +45,7 @@ def index():
     return bottle.template('templates/projectlist.tpl', data=data)    
 
 #page for adding a project
-@bottle.get('/projectlist/addproject')
+@bottle.get('/projects/projectlist/addproject')
 def addproject():
     return bottle.template('templates/addproject.tpl')
 
@@ -61,7 +61,7 @@ def added():
     new_id = cur.lastrowid
     db.commit()
     cur.close
-    return '<a href="/projectlist">Back</a>'
+    return '<a href="/projects/projectlist">Back</a>'
     
 @route('/static/<filename:path>')
 def server_static(filename):

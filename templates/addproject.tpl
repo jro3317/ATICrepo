@@ -1,7 +1,7 @@
 <h1>Add Project</h1>
 
 <p>Fill in the information below to add a project:</p>
-<form method="post" action="/projectlist/addproject/submit">
+<form method="post" action="/projects/projectlist/addproject/submit">
 <label>Name: <br>
 <input name="name" type="text"></label>
 <br>
