@@ -26,6 +26,11 @@ def index():
 def index():
     return template('templates/contact.tpl')
 
+@route('/projects')
+def index():
+    return template('templates/projects.tpl')
+
+#connects to database
 def get_data(dbfile, table):
     db = sqlite3.connect(dbfile)
     cur = db.cursor()
@@ -33,7 +38,7 @@ def get_data(dbfile, table):
     return cur.fetchall()
 
 #page for the list of projects
-@bottle.get('/projectlist')
+@bottle.get('/projects/projectlist')
 def index():
     data = get_data("projects.db", "projects")
     data.sort()
@@ -45,7 +50,7 @@ def addproject():
     return bottle.template('templates/addproject.tpl')
 
 #submit button function
-@bottle.post('/projectlist/addproject/submit')
+@bottle.post('/projects/projectlist/addproject/submit')
 def added():
     parts = bottle.request.forms
     db = sqlite3.connect('projects.db')

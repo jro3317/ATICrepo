@@ -43,7 +43,7 @@ alt="navigation exit button"></div>
 <nav id="mainNav">
   <span><a href="/">Home</a></span>
   <span><a href="/about">About ATIC</a></span>
-  <span><a href="/projectlist">Projects</a></span>
+  <span><a href="/projects">Projects</a></span>
   <span><a href="/contact">Contact Us</a></span>
 </nav>
 

@@ -81,4 +81,6 @@ don't care for.
 </section>
 <hr class=clear>
 
+<a href="/projects/projectlist">List of Projects</a>
+
 %rebase templates/layout.tpl title='ATIC Projects', addstyles=['project']
