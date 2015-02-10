@@ -15,7 +15,7 @@
 </table>
 
 <form class="buttons">
-<button formaction="/projectlist/addproject">Add Project</button>
+<button formaction="/projects/projectlist/addproject">Add Project</button>
 </form>
 
 %rebase templates/layout.tpl addstyles=[]
