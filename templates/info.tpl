@@ -1,4 +1,4 @@
-<h1 class="pageTitle">About ATIC</h2>
+<h1 class="pageTitle">About ATIC</h1>
 <hr>
 <h2>Arlington Technology Innovation Center (ATIC)
 Common Work Spaces for Arlington’s Young IT Talent and Arlington’s Not-for-Profit and Small Business Communities</h2>

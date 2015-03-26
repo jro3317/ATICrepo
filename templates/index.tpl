@@ -10,7 +10,7 @@ non-for-profits to submit requests for work</p>
 <hr>
 <section>
 <h2>Projects</h2>
-<p>Check out the <a href="">Projects</a> page to see what some of the students
+<p>Check out the <a href="projects">Projects</a> page to see what some of the students
 involved in ATIC have already done.</p>
 </section>
 

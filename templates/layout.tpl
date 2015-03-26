@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{{title}}</title>
+<title>\\
+%default = "Projects"
+{{title if defined('title') else default}}</title>
 <style>
 @import url(/static/css/all.css);
 @import url(/static/css/header.css);
