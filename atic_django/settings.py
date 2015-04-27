@@ -110,3 +110,8 @@ STATICFILES_DIRS = [
     (os.path.join(BASE_DIR, 'atic_django', 'static'))
 ]
 
+PRODUCTION = False
+
+if PRODUCTION:
+    sys.path.insert(0, (BASE_DIR + '/atic_django/'))
+    from settings_pro import *
