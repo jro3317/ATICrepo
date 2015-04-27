@@ -110,6 +110,15 @@ STATICFILES_DIRS = [
     (os.path.join(BASE_DIR, 'atic_django', 'static'))
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#Set up for google for development
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = '587'
+EMAIL_USE_TLS = True
+
+
 PRODUCTION = False
 
 if PRODUCTION:
