@@ -1,4 +1,4 @@
-import site
+import site, os
 # venv site packages
 site.addsitedir('/home/WEBHOST/webapps/ATICrepo/atic_django/venv/lib/python2.7/site-packages')
 
