@@ -14,5 +14,11 @@ DATABASES = {
     'PORT': '',
     }
 }
+
 MEDIA_ROOT = '/home/WEBHOST/webapps/ATICrepo_media/'
 STATIC_ROOT = '/home/WEBHOST/webapps/ATICrepo_static/'
+
+EMAIL_HOST = 'smtp.webfaction.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = '25'

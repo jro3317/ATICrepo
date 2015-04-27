@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block ex_css %}
+<link rel="stylesheet" href="/static/css/contact.css" />
 {% endblock %}
 {% block content %}
 {% block title %}Contact ATIC{% endblock %}
@@ -9,6 +10,13 @@
 <p> if you are looking for help with the website, trying to get yourself known,
 or have some suggestions, contact us at
 <a href="mailto:arltechinnovation@gmail.com">arltechinnovation@gmail.com</a>
+
+<form name="form1" method="post" action="" id="form1">{% csrf_token %}
+    <input type="text" name="name" placeholder="Name" />
+    <input type="text" name="email" placeholder="Your Email" />
+    <textarea name="message" rows="10" cols="50" placeholder="Your project idea"></textarea>
+    <input type="submit"/>
+</form>
 </p>
 {% endblock %}
 
