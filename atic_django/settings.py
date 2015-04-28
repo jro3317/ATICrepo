@@ -119,8 +119,9 @@ EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 
 
-PRODUCTION = False
+PRODUCTION = True
 
 if PRODUCTION:
+    import sys
     sys.path.insert(0, (BASE_DIR + '/atic_django/'))
     from settings_pro import *
