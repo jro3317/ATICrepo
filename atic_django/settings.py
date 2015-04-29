@@ -119,7 +119,7 @@ EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 
 
-PRODUCTION = True
+PRODUCTION = False
 
 if PRODUCTION:
     import sys
