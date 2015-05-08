@@ -2,4 +2,3 @@
 *.pyc
 /venv/
 db.sqlite3
-passwd.txt

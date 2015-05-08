@@ -1,0 +1,51 @@
+.projectTitle {
+    font-size: 2vw;
+    text-decoration: underline;
+    text-align: left;
+}
+.projectDetails {
+    padding: 10px;
+    padding-left: 0;
+}
+.leftImage {
+    padding:10px;
+    float: left;
+    margin: 10px;
+    max-width: 50%;
+    width: auto;
+    max-height: 45vw;
+    height: auto;
+}
+.rightImage {
+    padding: 10px;
+    float: right;
+    margin:10px;
+    max-width: 50%;
+    width: auto;
+    max-height: 45vw;
+    height: auto;
+}
+section {
+    display: block;
+}
+p {
+    margin: 0;
+}
+.clear {
+    clear:both;
+}
+nav#projectNav {
+    display: table;
+    width: 100%
+}
+nav#projectNav a {
+    display: table-cell;
+    background-color: #aaa;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    width: 33.333%;
+    padding: .2vw;
+    margin: 10px;
+    border: solid white;
+}
